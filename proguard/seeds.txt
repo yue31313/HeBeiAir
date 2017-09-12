@@ -1,0 +1,4 @@
+icyfox.hebeiair.CityActivity
+icyfox.hebeiair.CityActivity: CityActivity()
+icyfox.hebeiair.MainActivity
+icyfox.hebeiair.MainActivity: MainActivity()

@@ -1,0 +1,74 @@
+icyfox.hebeiair.CityActivity -> icyfox.hebeiair.CityActivity:
+    android.widget.TextView tv_time -> a
+    android.widget.GridView gv -> b
+    icyfox.hebeiair.CityData cityData -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    icyfox.hebeiair.CityData access$0(icyfox.hebeiair.CityActivity) -> a
+icyfox.hebeiair.CityActivity$1 -> icyfox.hebeiair.a:
+    icyfox.hebeiair.CityActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+icyfox.hebeiair.CityActivity$gvAdapter -> icyfox.hebeiair.b:
+    java.util.List pList -> a
+    icyfox.hebeiair.CityActivity this$0 -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+icyfox.hebeiair.CityData -> icyfox.hebeiair.c:
+    java.lang.String name -> a
+    java.lang.String dataTime -> b
+    java.lang.String aqi -> c
+    java.lang.String level -> d
+    java.lang.String maxPoll -> e
+    java.lang.String color -> f
+    java.lang.String intro -> g
+    java.lang.String tips -> h
+    java.util.List pointerList -> i
+    java.lang.String toString() -> toString
+    java.lang.String getByTag(org.w3c.dom.Node,java.lang.String) -> a
+icyfox.hebeiair.MainActivity -> icyfox.hebeiair.MainActivity:
+    android.widget.TextView tv_time -> a
+    java.util.List cdList -> b
+    java.util.List nodeList -> c
+    android.widget.GridView gv -> d
+    android.view.View ll -> e
+    android.view.View pb -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    android.view.View access$0(icyfox.hebeiair.MainActivity) -> a
+    android.view.View access$1(icyfox.hebeiair.MainActivity) -> b
+    android.widget.TextView access$2(icyfox.hebeiair.MainActivity) -> c
+    java.util.List access$3(icyfox.hebeiair.MainActivity) -> d
+    java.util.List access$4(icyfox.hebeiair.MainActivity) -> e
+    android.widget.GridView access$5(icyfox.hebeiair.MainActivity) -> f
+icyfox.hebeiair.MainActivity$Work -> icyfox.hebeiair.d:
+    icyfox.hebeiair.MainActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    icyfox.hebeiair.MainActivity access$2(icyfox.hebeiair.MainActivity$Work) -> a
+icyfox.hebeiair.MainActivity$Work$1 -> icyfox.hebeiair.e:
+    icyfox.hebeiair.MainActivity$Work this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+icyfox.hebeiair.MainActivity$gvAdapter -> icyfox.hebeiair.f:
+    java.util.List cdList -> a
+    icyfox.hebeiair.MainActivity this$0 -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+icyfox.hebeiair.Pointer -> icyfox.hebeiair.g:
+    java.lang.String city -> a
+    java.lang.String region -> b
+    java.lang.String name -> c
+    java.lang.String dataTime -> d
+    java.lang.String aqi -> e
+    java.lang.String level -> f
+    java.lang.String maxPoll -> g
+    java.lang.String color -> h
+    java.lang.String intro -> i
+    java.lang.String tips -> j
+    java.lang.String toString() -> toString
+    java.lang.String getByTag(org.w3c.dom.Node,java.lang.String) -> a
+icyfox.hebeiair.Util -> icyfox.hebeiair.h:
+    java.lang.String Get(java.lang.String) -> a
+    java.lang.String readString(java.io.InputStream,java.lang.String) -> a
